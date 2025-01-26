@@ -119,7 +119,7 @@ const App = () => {
 
   return (
     <div style={{ padding: 20, maxWidth: '100%', margin: '0 auto', fontFamily: 'Arial, sans-serif' }}>
-      <h1 style={{ textAlign: 'center', color: '#1890ff', fontSize: '32px', marginBottom: '20px' }}>User Management</h1>
+      <h1 style={{ textAlign: 'center', color: '#1890ff', fontSize: '32px', marginBottom: '20px' }}>User Management Dashboard</h1>
       <Button
         type="primary"
         icon={<PlusOutlined />}
@@ -144,7 +144,7 @@ const App = () => {
         open={isModalOpen}
         onCancel={() => setIsModalOpen(false)}
         footer={null}
-        bodyStyle={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}
+        // bodyStyle={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}
       >
         <Form
           initialValues={currentUser || { name: '', email: '', company: { name: '' } }}
