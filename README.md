@@ -1,5 +1,5 @@
 # User Management Web Application
-##### A simple web application built using React.js that allows users to view, add, edit, and delete user details from a mock backend API. This project interacts with the JSONPlaceholder API to simulate CRUD operations (Create, Read, Update, Delete).
+### A simple web application built using React.js that allows users to view, add, edit, and delete user details from a mock backend API. This project interacts with the JSONPlaceholder API to simulate CRUD operations (Create, Read, Update, Delete).
 
 # Features
 #### <u>View Users:</u> Displays a list of users with details such as ID, First Name, Last Name, Email, and Department.
