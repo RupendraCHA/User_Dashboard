@@ -20,4 +20,4 @@
 #### React.js: For building the user interface.
 #### Axios: For handling API requests.
 #### JSONPlaceholder: A free mock backend API for demonstration.
-####$ AntDesign: For responsive design.
+#### AntDesign: For responsive design.
