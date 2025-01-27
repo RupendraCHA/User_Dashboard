@@ -21,3 +21,19 @@
 #### Axios: For handling API requests.
 #### JSONPlaceholder: A free mock backend API for demonstration.
 #### AntDesign: For responsive design.
+# Setup and Installation
+    Prerequisites
+    Node.js and npm installed on your machine.
+    
+## Steps to Run Locally:
+### Clone the repository:
+    git clone https://github.com/yourusername/user-management-app.git
+    cd user-management-app
+    
+### Install dependencies:
+    npm install
+    Run the application:
+
+### Start the Application:
+    npm start
+    The application will be accessible at http://localhost:3000.
