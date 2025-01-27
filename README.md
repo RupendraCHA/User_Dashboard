@@ -57,3 +57,9 @@
     Clicking "Delete" on a user removes them from the list by sending a DELETE request.
 ### Error Handling
     If any API request fails (due to network issues, server errors, etc.), an error message will be displayed.
+
+# Future Improvements:
+#### Add infinite scrolling to handle large user lists.
+#### Integrate a real backend for actual data storage.
+#### Improve form validation.
+#### Enhance UI with animations or transitions.
