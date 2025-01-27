@@ -1,4 +1,4 @@
-User Management Web Application
+# User Management Web Application
 A simple web application built using React.js that allows users to view, add, edit, and delete user details from a mock backend API. This project interacts with the JSONPlaceholder API to simulate CRUD operations (Create, Read, Update, Delete).
 
 Features
