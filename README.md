@@ -13,8 +13,8 @@
 ### Error Handling: 
     Includes error handling for API failures and form validation.
 
-# Demo
-#### Link to the deployed version: https://user-dashboard-gnmc.onrender.com
+# Published URL on Render
+### Link to the website: https://user-dashboard-gnmc.onrender.com
 
 # Technologies Used:
 #### React.js: For building the user interface.
