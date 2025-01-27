@@ -15,3 +15,9 @@
 
 # Demo
 #### Link to the deployed version: https://user-dashboard-gnmc.onrender.com
+
+# Technologies Used:
+    React.js: For building the user interface.
+    Axios: For handling API requests.
+    JSONPlaceholder: A free mock backend API for demonstration.
+    AntDesign: For responsive design.
