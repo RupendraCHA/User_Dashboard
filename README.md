@@ -3,15 +3,15 @@
 
 # Features
 ### View Users: 
-    ####Displays a list of users with details such as ID, First Name, Last Name, Email, and Department.
+    Displays a list of users with details such as ID, First Name, Last Name, Email, and Department.
 ### Add Users: 
-    #### Allows adding a new user with the necessary details.
+    Allows adding a new user with the necessary details.
 ### Edit Users: 
-    #### Allows editing the details of an existing user.
+    Allows editing the details of an existing user.
 ### Delete Users: 
-    #### Allows deleting a user from the list.
+    Allows deleting a user from the list.
 ### Error Handling: 
-    #### Includes error handling for API failures and form validation.
+    Includes error handling for API failures and form validation.
 
 # Demo
 #### Link to the deployed version: https://user-dashboard-gnmc.onrender.com
