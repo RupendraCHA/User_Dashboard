@@ -63,3 +63,6 @@
 #### Integrate a real backend for actual data storage.
 #### Improve form validation.
 #### Enhance UI with animations or transitions.
+
+# Challenges and Way Forward:
+During development, I faced challenges in simulating a real backend experience with JSONPlaceholder, but it was an excellent opportunity to practice handling CRUD operations with mock data. With more time, I would implement additional features like infinite scrolling and integrate with a real backend.
