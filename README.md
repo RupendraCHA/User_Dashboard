@@ -37,3 +37,11 @@
 ### Start the Application:
     npm run dev
     The application will be accessible at http://localhost:5173.
+
+# API Details
+## This app interacts with the JSONPlaceholder API for simulating backend interactions. Below are the endpoints used:
+
+    GET /users: Fetches all user details.
+    POST /users: Adds a new user.
+    PUT /users/{id}: Updates an existing user.
+    DELETE /users/{id}: Deletes a user
