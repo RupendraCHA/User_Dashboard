@@ -17,10 +17,10 @@
 ### Link to the website: https://user-dashboard-gnmc.onrender.com
 
 # Technologies Used:
-#### React.js: For building the user interface.
-#### Axios: For handling API requests.
-#### JSONPlaceholder: A free mock backend API for demonstration.
-#### AntDesign: For responsive design.
+### React.js: For building the user interface.
+### Axios: For handling API requests.
+### JSONPlaceholder: A free mock backend API for demonstration.
+### AntDesign: For responsive design.
 # Setup and Installation
     Prerequisites
     Node.js and npm installed on your machine.
