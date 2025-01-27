@@ -45,3 +45,15 @@
     POST /users: Adds a new user.
     PUT /users/{id}: Updates an existing user.
     DELETE /users/{id}: Deletes a user
+
+# Dynamic Functionalities:
+### View Users
+    Displays a list of users with the following details: ID, First Name, Last Name, Email, and Department.
+### Add User
+    A form that allows the user to input new user details. Once submitted, the user is added to the list (simulated API response).
+### Edit User
+    Clicking "Edit" on a user loads their current details in the form, allowing modifications. Changes are sent via a PUT request to update the user (simulated).
+### Delete User
+    Clicking "Delete" on a user removes them from the list by sending a DELETE request (simulated).
+### Error Handling
+    If any API request fails (due to network issues, server errors, etc.), an error message will be displayed.
