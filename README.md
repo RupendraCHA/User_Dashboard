@@ -28,7 +28,7 @@
 ## Steps to Run Locally:
 ### Clone the repository:
     git clone https://github.com/yourusername/user-management-app.git
-    cd user-management-app
+    go to the Project Directory
     
 ### Install dependencies:
     npm install
