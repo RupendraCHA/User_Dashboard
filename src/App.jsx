@@ -118,7 +118,7 @@ const App = () => {
   ];
 
   return (
-    <div style={{ padding: 20, maxWidth: '100%', margin: '0 auto', fontFamily: 'Arial, sans-serif' }}>
+    <div className='user-dashboard-container'>
       <h1 style={{ textAlign: 'center', color: '#1890ff', fontSize: '32px', marginBottom: '20px' }}>User Management Dashboard</h1>
       <Button
         type="primary"
