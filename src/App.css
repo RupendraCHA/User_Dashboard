@@ -3,4 +3,17 @@
     max-width: 100%;
     margin: 10px auto;
     font-family: 'Arial, sans-serif';
+
+    
+}
+.user-dashboard-heading{
+    text-align: center;
+    color: #1890ff;
+    font-size: max(32px, 2vw);
+    margin-bottom: 20px;
+}
+.add-users-button{
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
 }

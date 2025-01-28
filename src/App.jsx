@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import "./App.css"
 import {
   Table,
   Button,
@@ -119,12 +120,13 @@ const App = () => {
 
   return (
     <div className='user-dashboard-container'>
-      <h1 style={{ textAlign: 'center', color: '#1890ff', fontSize: '32px', marginBottom: '20px' }}>User Management Dashboard</h1>
+      <h1 className='user-dashboard-heading'>User Management Dashboard</h1>
       <Button
         type="primary"
         icon={<PlusOutlined />}
         onClick={openAddModal}
         style={{ marginBottom: 20, display: 'block', marginLeft: 'auto' }}
+        className='add-users-button'
       >
         Add User
       </Button>
