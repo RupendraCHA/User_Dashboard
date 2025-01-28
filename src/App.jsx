@@ -125,7 +125,6 @@ const App = () => {
         type="primary"
         icon={<PlusOutlined />}
         onClick={openAddModal}
-        style={{ marginBottom: 20, display: 'block', marginLeft: 'auto' }}
         className='add-users-button'
       >
         Add User
