@@ -137,8 +137,8 @@ const App = () => {
         loading={loading}
         pagination={{ pageSize: 5 }}
         bordered
-        style={{ backgroundColor: '#f9f9f9', borderRadius: '8px', overflowX: 'auto' }}
         scroll={{ x: 800 }}
+        className='user-dashboard-table'
       />
 
       <Modal

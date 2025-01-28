@@ -17,3 +17,8 @@
     display: block;
     margin-left: auto;
 }
+.user-dashboard-table{
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: auto;
+}
