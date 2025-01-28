@@ -21,4 +21,9 @@
     background-color: #f9f9f9;
     border-radius: 8px;
     overflow: auto;
+    font-weight: 600;
+}
+.update-or-add-button{
+    font-weight: bold;
+    height: 40px;
 }

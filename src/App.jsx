@@ -146,7 +146,6 @@ const App = () => {
         open={isModalOpen}
         onCancel={() => setIsModalOpen(false)}
         footer={null}
-        // bodyStyle={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}
       >
         <Form
           initialValues={currentUser || { name: '', email: '', company: { name: '' } }}
@@ -178,7 +177,7 @@ const App = () => {
           </Form.Item>
 
           <Form.Item>
-            <Button type="primary" htmlType="submit" block style={{ fontWeight: 'bold', height: '40px' }}>
+            <Button type="primary" htmlType="submit" block className='update-or-add-button'>
               {isEditing ? 'Update' : 'Add'} User
             </Button>
           </Form.Item>
