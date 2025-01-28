@@ -88,7 +88,7 @@ const App = () => {
 
   const columns = [
     { title: 'ID', dataIndex: 'id', key: 'id', align: 'center', responsive: ['md'] },
-    { title: 'First Name', dataIndex: 'name', key: 'name', align: 'center' },
+    { title: 'Name', dataIndex: 'name', key: 'name', align: 'center' },
     { title: 'Email', dataIndex: 'email', key: 'email', align: 'center' },
     { title: 'Department', dataIndex: 'company', key: 'company', align: 'center', render: (company) => company?.name || 'N/A', responsive: ['md'] },
     {
