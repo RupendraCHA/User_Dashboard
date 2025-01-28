@@ -1,5 +1,10 @@
+// Importing hooks to fetching data when website (with useEffect Hook) runs and defining variables (with useState Hook)
 import React, { useState, useEffect } from 'react';
+
+// Importing axios for handling API request
 import axios from 'axios';
+
+// Importing Predefined Classes from AntDesign for making UI More responsive and interacting
 import "./App.css"
 import {
   Table,
@@ -9,8 +14,13 @@ import {
   Form,
   notification,
 } from 'antd';
+
+
+// Import Icons for enabling user Friendliness
 import { PlusOutlined, EditOutlined, DeleteOutlined } from '@ant-design/icons';
 
+
+// JSONPlaceholder URL For getting the user data and interaction while making API Requests
 const API_URL = 'https://jsonplaceholder.typicode.com/users';
 
 const App = () => {
@@ -20,6 +30,8 @@ const App = () => {
   const [isEditing, setIsEditing] = useState(false);
   const [currentUser, setCurrentUser] = useState(null);
 
+
+  // Function to getting all the users Data
   const fetchUsers = async () => {
     try {
       setLoading(true);
@@ -32,6 +44,7 @@ const App = () => {
     }
   };
 
+  // Delete user function to remove User from the list
   const handleDelete = async (id) => {
     try {
       await axios.delete(`${API_URL}/${id}`);
@@ -42,6 +55,7 @@ const App = () => {
     }
   };
 
+  // Function for Adding or Updating/Editing user details into the Application
   const handleAddOrEdit = async (values) => {
     try {
       if (isEditing) {
@@ -67,12 +81,15 @@ const App = () => {
     }
   };
 
+
+  // Function to handle Add user details modal
   const openAddModal = () => {
     setCurrentUser(null);
     setIsEditing(false);
     setIsModalOpen(true);
   };
 
+  // Function for handling edit user details Modal
   const openEditModal = (user) => {
     setCurrentUser({
       ...user,
@@ -82,10 +99,14 @@ const App = () => {
     setIsModalOpen(true);
   };
 
+
+  // UseEffect Hook for loading/Fetching all the Users data when application starts running
   useEffect(() => {
     fetchUsers();
   }, []);
 
+
+  // Users Dashboard Table filed Values and buttons for interactions
   const columns = [
     { title: 'ID', dataIndex: 'id', key: 'id', align: 'center', responsive: ['md'] },
     { title: 'Name', dataIndex: 'name', key: 'name', align: 'center' },
@@ -100,7 +121,7 @@ const App = () => {
           <Button 
             type="primary" 
             icon={<EditOutlined />} 
-            onClick={() => openEditModal(record)} 
+            onClick={() => openEditModal(record)}  // This onClick event edit/update the user details
             style={{ marginRight: 8 }}
           >
             Edit
@@ -109,7 +130,7 @@ const App = () => {
             type="primary" 
             danger 
             icon={<DeleteOutlined />} 
-            onClick={() => handleDelete(record.id)}
+            onClick={() => handleDelete(record.id)}  // This onClick event deletes the user from the list
           >
             Delete
           </Button>
@@ -124,12 +145,13 @@ const App = () => {
       <Button
         type="primary"
         icon={<PlusOutlined />}
-        onClick={openAddModal}
+        onClick={openAddModal} // This onClick opens Modal to create a new User
         className='add-users-button'
       >
         Add User
       </Button>
-      <Table
+
+      <Table  // Table for displaying users data
         dataSource={users}
         columns={columns}
         rowKey="id"
